@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+.pytest_cache/
+
+# Environments
+ENV/
+env/
+venv/
+.venv/
+*.env
+
+# Playwright
+playwright-report/
+ms-playwright/
+
+# Allure results and generated output
+allure-results/
+allure-report/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test artifacts
+videos/
+screenshots/
