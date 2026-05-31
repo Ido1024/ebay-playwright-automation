@@ -43,6 +43,21 @@ playwright install
 
 3. Install Allure command-line tool (required for serving reports):
 
+Windows (via Scoop):
+
+```bash
+scoop install allure
+```
+
+macOS (via Homebrew):
+
+```bash
+brew install allure
+```
+
+Alternative (via Node.js/npm - Cross-Platform):
+If you already have Node.js installed, you can use npm:
+
 ```bash
 npm install -g allure-commandline
 ```
@@ -51,7 +66,12 @@ npm install -g allure-commandline
 
 This repository includes an `env.example` file at the project root.
 
-1. Copy or rename `env.example` to `.env`.
+1. Copy `env.example` to `.env` using the terminal:
+
+```bash
+cp env.example .env
+```
+
 2. Update the `.env` file with your personal eBay credentials and site configuration.
 
 Example contents:
